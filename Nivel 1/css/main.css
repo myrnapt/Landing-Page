@@ -4,6 +4,10 @@
   font-family: "Rubik", sans-serif;
 }
 
+.navbar-toggler-icon {
+  background-image: url("/Nivel 1/img/icon-hamburger.svg") !important;
+}
+
 p {
   color: #b3b4b8;
   margin: 0%;
@@ -96,6 +100,7 @@ h2, .h2 {
 
 .blueShape {
   background-color: #5265e1;
+  width: 100rem;
   top: 25%;
   height: 35%;
   left: 55%;
@@ -120,6 +125,10 @@ h2, .h2 {
 
 .card {
   width: 280px;
+}
+
+.accordion-button:after {
+  background-image: url("/Nivel 1/img/icon-arrow.svg") !important;
 }
 
 /*!

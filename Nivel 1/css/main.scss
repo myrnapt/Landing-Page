@@ -2,10 +2,14 @@
 * {
   font-family: "Rubik", sans-serif;
 }
+
 $primary: #5265e1;
 $secondary: #fa5959;
 $light: #f7f7f7;
 
+.navbar-toggler-icon {
+  background-image: url("/Nivel 1/img/icon-hamburger.svg") !important;
+}
 
 p {
   color: #b3b4b8;
@@ -16,8 +20,8 @@ h2 {
   font-weight: bold !important;
 }
 .nav-link {
-    color: #202020 !important;
-    font-weight:600 !important;
+  color: #202020 !important;
+  font-weight: 600 !important;
 }
 .nav-link:hover {
   color: $secondary !important;
@@ -63,7 +67,7 @@ h2 {
 
 .button-2:hover {
   background-color: white;
-  border: 1px solid #202020
+  border: 1px solid #202020;
 }
 
 .button-2 {
@@ -82,7 +86,6 @@ h2 {
   padding: 8px 14px;
   text-align: center;
   vertical-align: middle;
-  
 }
 
 .button-3:hover {
@@ -121,5 +124,11 @@ h2 {
 
 .card {
   width: 280px;
+  
 }
+.accordion-button:after {
+  background-image: url("/Nivel 1/img/icon-arrow.svg") !important;
+}
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
