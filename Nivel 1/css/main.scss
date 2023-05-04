@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+$primary: #5265e1;
+$secondary: #fa5959;
+$light: #f7f7f7;
+
+
+p {
+  color: #b3b4b8;
+  margin: 0%;
+  padding: 0%;
+}
+h2 {
+  font-weight: bold !important;
+}
+.nav-link {
+    color: #202020 !important;
+    font-weight:600 !important;
+}
+.nav-link:hover {
+  color: $secondary !important;
+}
+
+.button-1 {
+  background: #5265e1;
+  border: 1px solid #5265e1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-1:hover {
+  background-color: white;
+  color: #5265e1;
+}
+
+.button-1 {
+  transition-duration: 0.3s;
+}
+
+.button-2 {
+  background: #e6e3e3;
+  border: 1px solid #e6e3e3;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #202020;
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 14px;
+  margin-inline-start: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-2:hover {
+  background-color: white;
+  border: 1px solid #202020
+}
+
+.button-2 {
+  transition-duration: 0.3s;
+}
+
+.button-3 {
+  background: $secondary;
+  border: 1px solid $secondary;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 14px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.button-3:hover {
+  background-color: white;
+  color: $secondary;
+}
+
+.button-3 {
+  transition-duration: 0.3s;
+}
+
+.blueShape {
+  background-color: #5265e1;
+  width: 100rem;
+  top: 25%;
+  height: 35%;
+  left: 55%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index: -1;
+}
+
+.blueShape2 {
+  background-color: #5265e1;
+  top: 110%;
+  height: 20%;
+  right: 55%;
+  border-radius: 0 200px 200px 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.card-img-top {
+  padding: 50px;
+}
+
+.card {
+  width: 280px;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
