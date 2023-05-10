@@ -7,6 +7,17 @@ $primary: #5265e1;
 $secondary: #fa5959;
 $light: #f7f7f7;
 
+.nav-tabs {
+  border-bottom: 4px solid rgb(184, 184, 184) !important;
+  width: 100%;
+}
+.nav-item:hover {
+  border-bottom: 4px solid $secondary !important;
+}
+.nav-item:checked {
+  border-bottom: 4px solid $secondary !important;
+}
+
 .navbar-toggler-icon {
   background-image: url("/Nivel 1/img/icon-hamburger.svg") !important;
 }
@@ -99,10 +110,10 @@ h2 {
 
 .blueShape {
   background-color: #5265e1;
-  width: 100rem;
-  top: 25%;
-  height: 35%;
-  left: 55%;
+  width: 50%;
+  top: 30%;
+  left: 50%;
+  height: 300px;
   border-radius: 200px 0 0 200px;
   position: absolute;
   z-index: -1;
@@ -110,7 +121,8 @@ h2 {
 
 .blueShape2 {
   background-color: #5265e1;
-  top: 110%;
+  width: 50%;
+  top: 100%;
   height: 20%;
   right: 55%;
   border-radius: 0 200px 200px 0;
@@ -124,11 +136,9 @@ h2 {
 
 .card {
   width: 280px;
-  
 }
 .accordion-button:after {
-  background-image: url("/Nivel 1/img/icon-arrow.svg") !important;
+  background-image: url("/img/icon-arrow.svg") !important;
 }
-
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

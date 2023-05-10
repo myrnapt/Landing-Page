@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/Nivel 1/img/favicon-32x32.png" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
   <title>Bookmark</title>
-  <link rel="stylesheet" href="/Nivel 1/css/main.css" />
+  <link rel="stylesheet" href="/css/main.css" />
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <div class="row my-5 mb-5"> <!-- ROW 1 NAV -->
       <nav class="container-fluid navbar navbar-expand-sm navbar-light justify-content-between sticky-top">  
         <div class="container-fluid ">
-            <a href="#"><img src="/Nivel 1/img/logo-bookmark.svg"></a>
+            <a href="#"><img src="/img/logo-bookmark.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" > 
             <span class="navbar-toggler-icon"></span>           
         </button>
@@ -47,8 +47,8 @@
           <button class="btn-lg button-1 "> Get it on Chrome </button>
           <button class="btn-lg button-2"> Get it on Firefox </button>
         </div> <!--texto home -->
-        <div class="blueShape"></div>
-    </div> <!-- FINAL ROW 2 HOME-->
+    
+      </div> <!-- FINAL ROW 2 HOME-->
 
   </br></br></br>
 
@@ -58,22 +58,25 @@
       <p class="fs-5"> Our aim is to make it quick and easy for you to acces your
         favourite webstites. Your bookmarks sync between your devices so
         you can acces them on go. </p>
-        <!-- TABLA -->
-        <ul class="nav border-0  nav-tabs flex-column flex-md-row mb-3 mb-5 justify-content-center align-items-center col-12" id="myTab" role="tablist">
-          <li class="nav-item hoverNav my-tab" role="presentation">
-            <button class="nav-link active colorRed" id="home-tab" data-bs-toggle="tab"
+        <!-- TABLA --> 
+        <ul class="nav nav-tabs flex-column flex-md-row mb-3 mb-5 justify-content-center align-items-center col-12" id="myTab" role="tablist">
+          <li class="nav-item  my-tab" role="presentation">
+            <button class="nav-link" id="home-tab" data-bs-toggle="tab"
               data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
               aria-selected="true">Simple Bookmarking</button>
           </li>
-          <li class="nav-item hoverNav  my-tab" role="presentation">
-            <button class="nav-link colorRed" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+          <li class="nav-item   my-tab" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
               type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Speedy Searching</button>
           </li>
-          <li class="nav-item hoverNav  my-tab" role="presentation">
-            <button class="nav-link colorRed" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+          <li class="nav-item my-tab" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
               type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> Easy Sharing </button>
           </li>
         </ul> <!--FINAL TABLA-->
+     
+
+
       <!--CONTENIDOS TABLA-->
       <div class="tab-content" id="myTabContent">
         <!-- tab 1 -->
@@ -98,7 +101,7 @@
               <button class="btn-lg button-1">More info</button>
             </div>
           </div>
-          <div class="blueShape2 d-xl-block d-none"></div>
+          
         </div>
       </div>
       <!-- tab 2 -->
@@ -157,12 +160,12 @@
       <p class="fs-5 mb-5">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
       <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-md-start">
         <div class="card shadow bg-body rounded border-grey mb-5">
-          <div class="card-body mx-0 px-0"><img src="/Nivel 1/img/logo-chrome.svg" alt="Chrome" />
+          <div class="card-body mx-0 px-0"><img src="/img/logo-chrome.svg" alt="Chrome" />
             <br />
             <br />
             <h6 class="card-title fw-bold">Add to Chrome</h6>
             <p class="paragraph">Minimum version 62 </p>
-            <img class="dots" src='/Nivel 1/img/bg-dots.svg' alt="#" />
+            <img class="dots" src='/img/bg-dots.svg' alt="#" />
             <button class="btn-lg button-1 my-2">Add and Install Extension</button>
           </div>
         </div>
@@ -170,12 +173,12 @@
 
       <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-md-center">
         <div class="card shadow bg-body rounded border-grey mb-3 mt-2">
-          <div class="card-body mx-0 px-0" ;><img src="/Nivel 1/img/logo-Firefox.svg" alt="Firefox" />
+          <div class="card-body mx-0 px-0" ;><img src="/img/logo-Firefox.svg" alt="Firefox" />
             <br />
             <br />
             <h6 class="card-title fw-bold">Add to Firefox</h6>
             <p class="paragraph">Minimum version 55</p>
-            <img class="dots" src='/Nivel 1/img/bg-dots.svg' alt="#" />
+            <img class="dots" src='/img/bg-dots.svg' alt="#" />
             <button class="btn-lg button-1 my-2">Add and Install Extension</button>
           </div>
         </div>
@@ -183,11 +186,11 @@
 
       <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-md-end">
         <div class="card shadow bg-body rounded border-grey mt-5">
-          <div class="card-body mx-0 px-0"><img src='/Nivel 1/img/logo-opera.svg'>
+          <div class="card-body mx-0 px-0"><img src='/img/logo-opera.svg'>
             <br /><br />
             <h6 class="card-title fw-bold">Add to opera</h6>
             <p class="paragraph">Minimum version 46</p>
-            <img class="dots" src='/Nivel 1/img/bg-dots.svg' alt="#" />
+            <img class="dots" src='/img/bg-dots.svg' alt="#" />
             <button class="btn-lg button-1 my-2">Add and Install Extension</button>
           </div>
         </div>
@@ -272,6 +275,8 @@
     </div>
     </div> <!--FINAL ROW 5 FAQ-->
 
+    <div class="blueShape"></div>
+    <div class="blueShape2 d-xl-block d-none"></div>
 
     <footer>
       <div class="container-fluid bg-primary mt-5">
@@ -286,12 +291,11 @@
               </h2>
             </div>
           </div>
-          <form class="row justify-content-center align-items-start text-center mx-4 rounded-2 gx-2 was-validated mb-lg-4">
+          <form class="row justify-content-center align-items-start text-center mx-4 rounded-2 gx-2 needs-validation mb-lg-4">
             <div class="col-lg-4 col-md-12">
-              <input type="email" class="form-control p-2" id="user-email" 
-                placeholder="Enter your e-mail address" required />
-            </div>
-            <div class="invalid-feedback">Please fill out this field.</div>
+              <input type="email" class="form-control p-2 " id="user-email" 
+                placeholder="Enter your e-mail address"  />            
+              </div>
             <div class="col-lg-2 col-md-12 mb-3 mb-lg-0 mt-3 mt-lg-0">
               <button type="submit" class="btn btn-secondary w-100 text-white p-2">
                 Contact Us
@@ -319,10 +323,10 @@
               </li>
             <li class="nav-item mt-2 mt-lg-0 mb-lg-2 ms-lg-auto me-lg-5">
               <a class="nav-link d-inline ps-0 pe-3 pe-lg-2" href="https://www.facebook.com/"><img
-                  src="/Nivel 1/img/icon-facebook.svg" alt="facebook-icon" height="19"
+                  src="/img/icon-facebook.svg" alt="facebook-icon" height="19"
                   class="social-icon" target="”_blank”" /></a>
               <a class="nav-link d-inline ps-3 pe-lg-2 pe-0" href="https://www.twitter.com/"><img
-                  src="/Nivel 1/img/icon-twitter.svg" alt="twitter-icon" height="18"
+                  src="/img/icon-twitter.svg" alt="twitter-icon" height="18"
                   class="social-icon" target="”_blank”" /></a>
             </li>
           </ul>
