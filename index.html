@@ -74,9 +74,7 @@
               type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> Easy Sharing </button>
           </li>
         </ul> <!--FINAL TABLA-->
-     
-
-
+ 
       <!--CONTENIDOS TABLA-->
       <div class="tab-content" id="myTabContent">
         <!-- tab 1 -->
@@ -291,15 +289,17 @@
               </h2>
             </div>
           </div>
-          <form class="row justify-content-center align-items-start text-center mx-4 rounded-2 gx-2 needs-validation mb-lg-4">
+          <form class="row justify-content-center align-items-start text-center mx-4 rounded-2 gx-2 mb-lg-4 needs-validation" novalidate>
             <div class="col-lg-4 col-md-12">
               <input type="email" class="form-control p-2 " id="user-email" 
-                placeholder="Enter your e-mail address"  />            
+                placeholder="Enter your e-mail address" required />            
+                <div class="valid-feedback text-bg-success mt-0">Correcto</div>
+                <div class="invalid-feedback text-bg-danger mt-0">Introduzca un email correcto</div>
               </div>
-            <div class="col-lg-2 col-md-12 mb-3 mb-lg-0 mt-3 mt-lg-0">
-              <button type="submit" class="btn btn-secondary w-100 text-white p-2">
-                Contact Us
-              </button>
+              <div class="col-lg-2 col-md-12 mb-3 mb-lg-0 mt-3 mt-lg-0">
+                <button type="submit" class="button-3">
+                  Contact Us
+                </button>
             </div>
           </form>
         </div>
@@ -335,7 +335,25 @@
       </div>
     </footer>
   </div>
+<script>(function () {
+  'use strict'
 
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()</script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

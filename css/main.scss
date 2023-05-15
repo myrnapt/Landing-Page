@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
 * {
   font-family: "Rubik", sans-serif;
 }
@@ -8,18 +9,24 @@ $secondary: #fa5959;
 $light: #f7f7f7;
 
 .nav-tabs {
-  border-bottom: 4px solid rgb(184, 184, 184) !important;
-  width: 100%;
-}
-.nav-item:hover {
-  border-bottom: 4px solid $secondary !important;
-}
-.nav-item:checked {
-  border-bottom: 4px solid $secondary !important;
+  border: none !important;
+  border-bottom: 2px solid rgb(184, 184, 184) !important;
 }
 
+.nav-tabs :focus {
+  border: none !important;
+  border-bottom: 2px solid $secondary !important;
+}
+
+.nav-tabs :hover {
+  border: none !important;
+  border-bottom: 2px solid $secondary !important;
+
+}
+
+
 .navbar-toggler-icon {
-  background-image: url("/Nivel 1/img/icon-hamburger.svg") !important;
+  background-image: url("img/icon-hamburger.svg") !important;
 }
 
 p {
@@ -27,13 +34,16 @@ p {
   margin: 0%;
   padding: 0%;
 }
+
 h2 {
   font-weight: bold !important;
 }
+
 .nav-link {
   color: #202020 !important;
   font-weight: 600 !important;
 }
+
 .nav-link:hover {
   color: $secondary !important;
 }
@@ -41,8 +51,8 @@ h2 {
 .button-1 {
   background: #5265e1;
   border: 1px solid #5265e1;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 4px;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
@@ -50,6 +60,8 @@ h2 {
   padding: 12px 14px;
   text-align: center;
   vertical-align: middle;
+  font-weight: bold;
+
 }
 
 .button-1:hover {
@@ -64,8 +76,8 @@ h2 {
 .button-2 {
   background: #e6e3e3;
   border: 1px solid #e6e3e3;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 4px;
   box-sizing: border-box;
   color: #202020;
   cursor: pointer;
@@ -74,6 +86,8 @@ h2 {
   margin-inline-start: 10px;
   text-align: center;
   vertical-align: middle;
+  font-weight: bold;
+
 }
 
 .button-2:hover {
@@ -88,8 +102,8 @@ h2 {
 .button-3 {
   background: $secondary;
   border: 1px solid $secondary;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 4px;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
@@ -97,6 +111,7 @@ h2 {
   padding: 8px 14px;
   text-align: center;
   vertical-align: middle;
+  font-weight: bold;
 }
 
 .button-3:hover {
@@ -122,7 +137,7 @@ h2 {
 .blueShape2 {
   background-color: #5265e1;
   width: 50%;
-  top: 100%;
+  top: 125%;
   height: 20%;
   right: 55%;
   border-radius: 0 200px 200px 0;
@@ -137,6 +152,7 @@ h2 {
 .card {
   width: 280px;
 }
+
 .accordion-button:after {
   background-image: url("/img/icon-arrow.svg") !important;
 }
